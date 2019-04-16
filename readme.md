@@ -101,4 +101,4 @@ one of the following commands is taken in via *process.argv[2]* and *process.arg
 * Using the `fs` Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
 
-Here is a [video](https://github.com/DanMBau/liri-node-app/blob/master/Screen%20Recording.mov) of the app in use
+Here is a [video](https://github.com/DanMBau/liri-node-app/raw/master/Screen%20Recording.mov) of the app in use
