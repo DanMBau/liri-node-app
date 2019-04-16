@@ -89,17 +89,17 @@ var getMovie = function (movieName) {
 
     request(urlHit, function (error, response, body) {
         if (!error && response.statusCode === 200) {
-            var jsonData = JSON.parse(body);
+            var response = JSON.parse(body);
 
-            console.log("Title: " + jsonData.Title);
-            console.log("Year: " + jsonData.Year);
-            console.log("Rated: " + jsonData.Rated);
-            console.log("IMDB Rating: " + jsonData.imdbRating);
-            console.log("Country: " + jsonData.Country);
-            console.log("Language: " + jsonData.Language);
-            console.log("Plot: " + jsonData.Plot);
-            console.log("Actors: " + jsonData.Actors);
-            console.log("Rotton Tomatoes Rating: " + jsonData.Ratings[1].Value);
+            console.log("Title: " + response.Title);
+            console.log("Year: " + response.Year);
+            console.log("Rated: " + response.Rated);
+            console.log("IMDB Rating: " + response.imdbRating);
+            console.log("Country: " + response.Country);
+            console.log("Language: " + response.Language);
+            console.log("Plot: " + response.Plot);
+            console.log("Actors: " + response.Actors);
+            console.log("Rotton Tomatoes Rating: " + response.Ratings[1].Value);
         }
     });
 };
