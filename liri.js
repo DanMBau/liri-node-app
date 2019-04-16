@@ -31,7 +31,7 @@ var getArtistNames = function (artist) {
 
 var getSpotify = function (songName) {
     if (songName === undefined) {
-        songName = "What's my age again";
+        songName = "The sign";
     }
 
     spotify.search(
